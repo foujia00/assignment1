@@ -253,6 +253,7 @@ nav {
 /* Donate */
 .donate{
   margin: 0 100px;
+  justify-content: center;
 }
 .dtitle {
   font-weight: bold;
@@ -307,4 +308,48 @@ nav {
   border-radius: 8px;
   border: none;
   margin: 10px 580px;
+}
+/* letter */
+.letter{
+  margin: 80px 100px;
+  background-color: #C6E4D6;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+.ltitle{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.lpara{
+  color: rgb(78, 76, 76);
+  font-size: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+  padding: 0 80px;
+}
+.lin{
+width: 600px;
+  padding: 18px 40px;
+}
+.linput{
+display: inline-flex;
+margin: 24px 130px;
+
+}
+.lbtn{
+  background-color: #006A50;
+  color: white;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+/* footer */
+.footer-title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.fimg{
+  margin: 40px 700px;
 }
