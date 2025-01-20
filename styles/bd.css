@@ -7,9 +7,10 @@
 }
 
 /* shared style */
-.primary-color{
+.primary-color {
   background-color: #F1F1F3;
 }
+
 .title {
   font-weight: bold;
   font-size: 20px;
@@ -162,8 +163,9 @@ nav {
 .vision {
   margin: 80px 100px;
 }
+
 /* Quote */
-.quote{
+.quote {
   margin: 0 100px;
   background-color: white;
   border-radius: 16px;
@@ -173,65 +175,136 @@ nav {
   background-repeat: no-repeat;
   background-position: top left;
 }
-.q-p{
+
+.q-p {
   color: rgb(78, 76, 76);
   font-size: 16px;
 }
-.q-h{
+
+.q-h {
   font-size: 20px;
   font-weight: 600;
   margin-top: 12px;
   margin-bottom: 0;
 }
+
 /* News */
-.news{
+.news {
   margin: 80px 100px;
 }
-.news-title{
+
+.news-title {
   font-weight: bold;
   font-size: 40px;
 }
-.n-p{
+
+.n-p {
   color: rgb(78, 76, 76);
   font-size: 16px;
   margin-bottom: 32px;
 }
-.n-card1{
+
+.n-card1 {
   background-color: white;
   display: flex;
   border-radius: 24px;
   padding: 48px;
   margin-bottom: 24px;
 }
-.n-card2{
+
+.n-card2 {
   background-color: white;
   display: flex;
   border-radius: 24px;
   padding: 48px;
   margin-bottom: 24px;
 }
-.n-card3{
+
+.n-card3 {
   background-color: white;
   display: flex;
   border-radius: 24px;
   padding: 48px;
 }
-.news-i1{
+
+.news-i1 {
   border-radius: 24px;
   margin-right: 32px;
 }
-.news-i2{
+
+.news-i2 {
   border-radius: 24px;
   margin-left: 32px;
 }
-.n-h{
+
+.n-h {
   font-weight: bold;
   font-size: 32px;
 }
-.n-btn{
+
+.n-btn {
   background-color: #006A50;
   color: white;
   padding: 13px 26px;
   border-radius: 8px;
   border: none;
+}
+
+/* Donate */
+.donate{
+  margin: 0 100px;
+}
+.dtitle {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.dpara {
+  color: rgb(78, 76, 76);
+  font-size: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+  padding: 0 80px;
+}
+.d1{
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;
+  margin-right: 24px;
+}
+.d2{
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #C6E4D6;
+  border-radius: 16px;
+  padding: 40px;
+  margin-right: 24px;
+}
+.d3{
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;
+}
+.dcards{
+  display: flex;
+  padding: 0 110px;
+}
+.dinput{
+  width: 1032px;
+  padding: 20px 0;
+  text-align: center;
+  border: none;
+  margin: 32px 120px;
+}
+.dbtn{
+  background-color: #006A50;
+  color: white;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px 580px;
 }
